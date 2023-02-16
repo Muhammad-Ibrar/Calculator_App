@@ -1,7 +1,5 @@
-import 'dart:math';
-
 import 'package:calculator_app/components/my_button.dart';
-import 'package:calculator_app/constant.dart';
+// import 'package:calculator_app/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
@@ -38,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Align(
                       alignment: Alignment.bottomRight,
                      child: Text(userInput.toString(), style:const TextStyle(fontSize: 30, color: Colors.white),),
-                     const SizedBox(height: 15),
+                      const SizedBox(height: 50),
                     Text(answer.toString(), style:const TextStyle(fontSize: 30, color: Colors.white),),
                     ),
                     ],
